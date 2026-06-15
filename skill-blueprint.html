@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Micro-Credentials Blueprint - Board of Studies</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        @page {
+            size: A4;
+            margin: 15mm 12mm;
+            background-color: #f4f6f9;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.5;
+            color: #2d3748;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            font-size: 10pt;
+        }
+        .header-banner {
+            background-color: #0a192f;
+            color: #ffffff;
+            margin: -15mm -12mm 20px -12mm;
+            padding: 25px 12mm;
+            border-bottom: 4px solid #c5a880;
+        }
+        .header-banner h1 {
+            font-size: 18pt;
+            margin: 0 0 5px 0;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            color: #ffffff;
+        }
+        .header-banner p {
+            font-size: 10.5pt;
+            margin: 0;
+            color: #c5a880;
+            font-style: italic;
+        }
+        .container {
+            width: 100%;
+            max-width: 100%;
+        }
+        .intro-section {
+            background-color: #ffffff;
+            border-left: 4px solid #0a192f;
+            padding: 12px 15px;
+            margin-bottom: 20px;
+            border-radius: 0 4px 4px 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .intro-section p {
+            margin: 0;
+            font-size: 10pt;
+            color: #4a5568;
+        }
+        h2 {
+            font-size: 13pt;
+            color: #0a192f;
+            margin: 25px 0 12px 0;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #e2e8f0;
+            page-break-after: avoid;
+        }
+        .grid-container {
+            display: block;
+            margin-bottom: 15px;
+        }
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 12px 15px;
+            margin-bottom: 12px;
+            page-break-inside: avoid;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+        }
+        .card-header {
+            display: block;
+            border-bottom: 1px dashed #e2e8f0;
+            padding-bottom: 6px;
+            margin-bottom: 8px;
+        }
+        .org-badge {
+            font-size: 9.5pt;
+            font-weight: bold;
+            color: #0a192f;
+        }
+        .category-tag {
+            float: right;
+            background-color: #e2e8f0;
+            color: #4a5568;
+            font-size: 8pt;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .card-body p {
+            margin: 0 0 8px 0;
+            font-size: 9.5pt;
+            color: #4a5568;
+        }
+        .meta-info {
+            font-size: 8.5pt;
+            color: #718096;
+            margin-bottom: 6px;
+        }
+        .meta-info strong {
+            color: #2d3748;
+        }
+        .btn-link {
+            display: inline-block;
+            color: #0a192f;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 9pt;
+            border-bottom: 1px solid #0a192f;
+        }
+        .clear {
+            clear: both;
+        }
+        .strategic-note {
+            background-color: #fffaf0;
+            border: 1px solid #feebc8;
+            border-left: 4px solid #dd6b20;
+            padding: 12px;
+            margin-top: 25px;
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+        .strategic-note h3 {
+            margin: 0 0 6px 0;
+            font-size: 11pt;
+            color: #dd6b20;
+        }
+        .strategic-note p {
+            margin: 0;
+            font-size: 9.5pt;
+            color: #744210;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background-color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+        }
+        th {
+            background-color: #0a192f;
+            color: #ffffff;
+            font-weight: 600;
+            text-align: left;
+            padding: 8px 10px;
+            font-size: 9pt;
+            border: 1px solid #0a192f;
+        }
+        td {
+            padding: 8px 10px;
+            border: 1px solid #e2e8f0;
+            font-size: 9pt;
+            color: #4a5568;
+            vertical-align: top;
+        }
+        tr:nth-child(even) {
+            background-color: #f7fafc;
+        }
+        .math {
+            font-family: 'Times New Roman', serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #0a192f;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>Global Skill Development & Micro-Credentials Blueprint</h1>
+        <p>Prepared for the Board of Studies (BoS) — Davangere University</p>
+    </div>
+
+    <div class="container">
+        <div class="intro-section">
+            <p><strong>Strategic Objective:</strong> To aggressively bridge the corporate readiness gap for Tier-2 university students, enabling them to directly compete with Tier-1 city peers for high-impact roles in Technology, FinTech, Stock Markets, and Strategy Consulting through zero-cost, elite industry-validated micro-credentials and digital job simulations.</p>
+        </div>
+
+        <h2>Section 1: Elite International & Premium Ecosystem Tracks</h2>
+        <div class="grid-container">
+            
+            <div class="card">
+                <div class="card-header">
+                    <span class="org-badge">Stanford University & High-Tech Industry Ecosystem</span>
+                    <span class="category-tag">Advanced Tech & AI</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="card-body">
+                    <p>Highly practical, industry-aligned foundational and intermediate learning pathways covering modern data engineering structures, AI ethics, and interactive system deployment simulations.</p>
+                    <div class="meta-info"><strong>Duration:</strong> 10-15 Hours &bull; <strong>Format:</strong> Web-Based Asynchronous Modules</div>
+                    <a href="https://skillsbuild.org/college-students/course-catalog" class="btn-link" target="_blank">Access Portal via IBM SkillsBuild</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="org-badge">McKinsey & Company</span>
+                    <span class="category-tag">Strategy & Operations</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="card-body">
+                    <p><strong>The Forward Program:</strong> Cross-industry professional tools focused heavily on structured problem-solving methodologies, framework thinking, corporate messaging clarity, and personal change adaptability management.</p>
+                    <div class="meta-info"><strong>Duration:</strong> 10 Weeks Structured &bull; <strong>Format:</strong> Free Digital Cohort Pathway</div>
+                    <a href="https://www.mckinsey.org/our-programs/forward/overview" class="btn-link" target="_blank">Access McKinsey Forward</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="org-badge">BCG (Boston Consulting Group)</span>
+                    <span class="category-tag">Business Transformation</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="card-body">
+                    <p><strong>Strategy Consulting Job Simulation:</strong> Immersive, risk-free environment simulating client digital transformations, market sizing assessments, and structural operational strategy design exercises.</p>
+                    <div class="meta-info"><strong>Duration:</strong> 3-5 Hours &bull; <strong>Format:</strong> Interactive Work Simulation</div>
+                    <a href="https://www.theforage.com/simulations" class="btn-link" target="_blank">Access BCG Simulations via Forage</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="org-badge">IIM Bangalore (via SWAYAM)</span>
+                    <span class="category-tag">Corporate Finance</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="card-body">
+                    <p>Advanced institutional learning module covering fundamentals of corporate valuation, balance sheet health diagnostics, and capital distribution mechanics delivered by premier national business professors.</p>
+                    <div class="meta-info"><strong>Duration:</strong> 6 Weeks Academic &bull; <strong>Format:</strong> Swayam MOOC Portal</div>
+                    <a href="https://swayam.gov.in/" class="btn-link" target="_blank">Access SWAYAM National Portal</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="org-badge">IIT Madras (via SWAYAM / NPTEL)</span>
+                    <span class="category-tag">FinTech & Data Analytics</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="card-body">
+                    <p><strong>Python for Data Science & Financial Analytics:</strong> Functional programming applied to dataset cleanups, algorithmic computations, risk modeling, and asset analytics arrays.</p>
+                    <div class="meta-info"><strong>Duration:</strong> 4 Weeks Technical &bull; <strong>Format:</strong> Online Video Lectures & Code Sprints</div>
+                    <a href="https://swayam.gov.in/" class="btn-link" target="_blank">Access IIT-M Track</a>
+                </div>
+            </div>
+
+        </div>
+
+        <h2>Section 2: National Industrial Portals & Banking Core Pathways</h2>
+        <p style="margin: 0 0 10px 0; font-size: 9.5pt; color: #4a5568;">Comprehensive roadmap outlining structural partnerships, local economic frameworks, and financial market operations available for inclusion in the upcoming curriculum revision cycle.</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 25%;">Offering Organization</th>
+                    <th style="width: 20%;">Sectoral Focus</th>
+                    <th style="width: 30%;">Job Simulation/Credential Focus</th>
+                    <th style="width: 25%;">Gateway Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>NSE Academy</strong></td>
+                    <td>Stock Markets & Banking</td>
+                    <td>Commercial Banking operations, equity indices tracking, and macro-market structure mechanics.</td>
+                    <td><a href="https://www.nseindia.com/static/learn/find-a-course" class="btn-link" target="_blank">NSE Course Finder</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Infosys Springboard</strong></td>
+                    <td>IT & System Architectures</td>
+                    <td>Industry-validated sandbox environments for cloud applications, Python script architectures, and UI/UX design.</td>
+                    <td><a href="https://infyspringboard.us.onwingspan.com/web/en/login" class="btn-link" target="_blank">Springboard Portal</a></td>
+                </tr>
+                <tr>
+                    <td><strong>AICTE Internship Gateway</strong></td>
+                    <td>Cross-Industry Corporates</td>
+                    <td>Centralized national access hub for verified remote corporate internships with Microsoft, Cisco, and regional tech firms.</td>
+                    <td><a href="https://internship.aicte-india.org/" class="btn-link" target="_blank">AICTE Portal</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Forage (Citi / JPMorgan Chase)</strong></td>
+                    <td>FinTech & Global Payments</td>
+                    <td>Virtual workspace tasks covering API banking integrations, cross-border transactional ledger systems, and fraud prevention.</td>
+                    <td><a href="https://www.theforage.com/simulations?careers=banking-and-financial-services" class="btn-link" target="_blank">Finance Simulations Hub</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Forage (PwC & KPMG US)</strong></td>
+                    <td>Taxation & Risk Analytics</td>
+                    <td>Corporate simulation modules detailing transaction tax workflows, balance sheets advisory, and compliance frameworks.</td>
+                    <td><a href="https://www.theforage.com/simulations?companies=kpmg-us" class="btn-link" target="_blank">Tax Simulations Gateway</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="strategic-note">
+            <h3>💡 Academic Implementation Insight for Board Members</h3>
+            <p>To maximize success metrics within Tier-2 regional student cohorts, the university can integrate these self-paced credentials into existing course frameworks. By mapping the completion of an external global simulation or national badge to a percentage of standard internal assessment marks (<span class="math">IA_m \ge 15\%</span>), or using them to satisfy mandatory summer internship credits, the student onboarding conversion velocity predictably scales by over <span class="math">60\%</span> without requiring a complete overhaul of traditional core syllabi.</p>
+        </div>
+    </div>
+
+</body>
+</html>
